@@ -35,5 +35,5 @@
 title:
     1: String
     2: String2
-    3: ~
+    3: ~ // alternative you can use aswell null
 ```
