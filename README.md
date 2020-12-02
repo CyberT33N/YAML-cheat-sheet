@@ -2,25 +2,26 @@
 - https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/
 
 ```yml
---- 
+--- // <-- start new document
  doe: "a deer, a female deer"
  ray: "a drop of golden sun"
  pi: 3.14159
- xmas: true
+ xmas: true // <-- boolean usage
  french-hens: 3
- calling-birds: 
+ calling-birds: // <-- ARRAY - ["huey", "dewey", "louie", "fred"]
    - huey
    - dewey
    - louie
    - fred
  xmas-fifth-day: 
-   calling-birds: four
+   calling-birds: four // <-- no marks needed when string does not have spaces
    french-hens: 3
    golden-rings: 5
    partridges: 
      count: 1
      location: "a pear tree"
    turtle-doves: two
+... // <-- end new document
 ```
 
 
