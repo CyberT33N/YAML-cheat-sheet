@@ -37,3 +37,32 @@ title:
     2: String2
     3: ~ // alternative you can use aswell null
 ```
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+## Array
+
+# equivalent of array of objects in JSON
+
+```yml
+/*
+{"AAPL": [
+  {
+    "shares": -75.088,
+    "date": "11/27/2015"
+  },
+  {
+    "shares": 75.088,
+    "date": "11/26/2015"
+  },
+]}
+*/
+AAPL:
+  - shares: -75.088
+    date: 11/27/2015
+  - shares: 75.088
+    date: 11/26/2015
+```
