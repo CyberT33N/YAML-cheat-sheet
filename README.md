@@ -96,3 +96,31 @@ AAPL:
   - shares: 75.088
     date: 11/26/2015
 ```
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+# Comments
+```yml
+# This is a full line comment
+foo: bar # this is a comment, too
+```
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+# Comp Modifiers
+- Multiline values may end with whitespace, and depending on how you want the document to be processed you might not want to preserve it. YAML has the strip chomp and preserve chomp operators. So, if the value ends with whitespace, like a newline, YAML will preserve it.
+```yml
+bar: >+
+  this is not a normal string it
+  spans more than
+  one line
+  see?
+```
+
