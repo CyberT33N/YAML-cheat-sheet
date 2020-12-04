@@ -1,6 +1,28 @@
 # YAML-cheat-sheet
 - https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/
 
+
+<br><br>
+# Node.js (https://www.npmjs.com/package/js-yaml)
+```javascript
+const yaml = require('js-yaml');
+const fs   = require('fs');
+ 
+// Get document, or throw exception on error
+try {
+  const doc = yaml.safeLoad(fs.readFileSync('/home/ixti/example.yml', 'utf8'));
+  console.log(doc);
+} catch (e) {
+  console.log(e);
+}
+``
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
 ```yml
 --- // <-- start new document
  doe: "a deer, a female deer"
