@@ -75,8 +75,8 @@ title:
 
 ## Array
 
-# equivalent of array of objects in JSON
 
+# equivalent of array of objects in JSON
 ```yml
 /*
 {"AAPL": [
@@ -90,11 +90,25 @@ title:
   },
 ]}
 */
+
 AAPL:
   - shares: -75.088
     date: 11/27/2015
   - shares: 75.088
     date: 11/26/2015
+    
+    
+    
+    
+    
+// method #2
+/*
+{
+  "composites": ["role1", "role2"]
+}
+*/
+
+composites: ["role1", "role2"]
 ```
 
 <br><br>
